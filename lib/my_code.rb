@@ -1,7 +1,7 @@
-array = ["1", "2", "3", "4", "5"]
-  let r = []
-  for (let i = 0; i < src.length; i++ ) {
-    r.push(-1 * src[i]) // Unique work
-  }
-  return r
-}
+array.each do |x|
+   answer << if x > 0
+       x * -1
+   else
+       x 
+   end
+ end
